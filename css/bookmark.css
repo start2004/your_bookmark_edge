@@ -1,0 +1,179 @@
+#container {
+    width: 100%;
+    display: none;
+}
+
+#main{
+    padding-top: 10px;
+    padding-left: 100px;
+    padding-right: 40px;
+    float: left;
+    width: 100%;
+}
+
+#main h4{
+    margin-top: 0px;
+}
+
+#main li{
+    margin-bottom: 10px;
+}
+
+.link_text{
+    font-size: 13px;
+    width: 80px;
+    height: 20px;
+    overflow: hidden;
+    margin-top: 5px;
+    text-align: center;
+    word-break: break-all;
+}
+
+.none {
+    display: none;
+}
+
+.bg-color1{
+    /*background-color: #e0ffff;*/
+    background-color: white;
+}
+.bg-color2{
+    background-color: #FAFAFA;
+}
+
+.head{
+    height: 170px;
+    width: 100%;
+    /*background-image: linear-gradient(to bottom, #CCCCCC, #FAFAFA);*/
+    background-image: url("../image/bg_1080x300.jpg");
+    background-size: 100%;
+    display: none;
+}
+
+.spider{
+    float: left;
+    margin-left: 100px;
+    height: 100%;
+    display: flex;
+    padding-top: 30px;
+    /*justify-content: center;*/
+    /*align-items: center;*/
+}
+
+.search-text{
+    width: 380px;
+    /*vertical-align: middle;*/
+    margin-top: 30px;
+    display: fixed;
+}
+
+.spider-btn{
+    margin-left: 20px;
+    margin-top: 30px;
+    /*vertical-align: middle;*/
+}
+
+.spider-btn ul li{
+    vertical-align: middle;
+    margin-top: 10px;
+}
+
+.spider-btn img{
+    cursor: pointer;
+}
+
+.search-tip{
+    width: 100%;
+    background-color: white;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: none;
+}
+
+.search-tip ul{
+    margin-bottom: 0px;
+}
+
+.search-tip img{
+    cursor: pointer;
+    width: 16px;
+    /*background-color: #f0ad4e;*/
+}
+
+.search-tip li{
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-left: 28px;
+    height: 24px;
+    padding-top: 2px;
+    cursor: pointer;
+    width: 70px;
+}
+
+.top{
+    width: 300px;
+    /*height: 190px;*/
+    float: right;
+    /*margin-top: 10px;*/
+    /*margin-right: 10px;*/
+}
+
+.text-div{
+    float: left;
+    width: 300px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*height: 120px;*/
+}
+
+#bookmark{
+    margin-bottom: 0px;
+}
+
+.bookmark-text{
+    width: 200px;
+    /*height: 150px;*/
+    float: left;
+}
+
+.bookmark-btn{
+    float: left;
+    vertical-align: middle;
+}
+
+.copy-tip{
+    color: #FFFFFF;
+    padding-top: 10px;
+    padding-left: 5px;
+    display: none;
+}
+
+.bookmark-image{
+    /*background: white;*/
+    /*margin: 5px;*/
+    background: #e6e6e6;
+}
+
+.foot{
+    height: 100px;
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    display: none;
+}
+
+#completeInfo{
+    display: none;
+    position: absolute;
+    background-color: #e0ffff;
+    color: #337ab7;
+    font-size: 13px;
+    padding: 5px 10px 5px 10px;
+    min-width: 90px;
+    max-width: 180px;
+    text-align: center;
+}
