@@ -14,12 +14,11 @@
 
 提供简易便签功能，数据保存本地，不会上传网络
 
-![image](https://raw.githubusercontent.com/start2004/your_bookmark/main/review-image/440x280.png)
+![image](https://raw.githubusercontent.com/start2004/your_bookmark_edge/main/review-image/1280x800-2.png)
 
-![image](https://raw.githubusercontent.com/start2004/your_bookmark/main/review-image/1280x800-1.png)
+![image](https://raw.githubusercontent.com/start2004/your_bookmark_edge/main/review-image/1280x800-1.png)
 
 ### 审核功能描述
 
 - 展示用户的收藏夹，平铺书签链接，帮助用户方便快捷找到自己的链接
 - 提供多种搜索引擎，便于用户选择
-- 简易的便签功能，所有数据存储本地
