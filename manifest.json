@@ -1,8 +1,9 @@
 {
-  "name": "你的书签",
-  "description": "简洁，安全，流畅。简洁的收藏夹，平铺书签链接，方便找到想要访问的链接。所有数据本地存储，无网络存储数据，请放心使用。轻量级应用，1秒加载完成，流畅简洁，拒绝卡顿。",
+  "name": "__MSG_extension_name__",
+  "description": "__MSG_extension_description__",
   "version": "0.0.6",
   "manifest_version": 3,
+  "default_locale": "en",
   "permissions": [
     "bookmarks",
     "favicon"
@@ -11,12 +12,16 @@
     "newtab": "newtab.html"
   },
   "icons": {
-    "128": "image/icon_32.png"
+    "16": "image/icon_16.png",
+    "32": "image/icon_32.png",
+    "64": "image/icon_64.png",
+    "128": "image/icon_128.png"
   },
   "background": {
     "service_worker": "background.js"
   },
   "action": {
-    "default_title": "打开你的书签"
+    "default_icon": "image/icon_32.png",
+    "default_title": "__MSG_action_default_title__"
   }
 }

@@ -1,0 +1,148 @@
+{
+  "extension_name":{
+    "message": "你的收藏夹",
+    "description": "扩展的名称"
+  },
+  "extension_description": {
+    "message": "简洁，安全，流畅。简洁的收藏夹，平铺书签链接，方便找到想要访问的链接。所有数据本地存储，无网络存储数据，请放心使用。轻量级应用，1秒加载完成，流畅简洁，拒绝卡顿。",
+    "description": "扩展的说明"
+  },
+  "action_default_title": {
+    "message": "打开你的书签",
+    "description": "鼠标移动到插件图标上，提示信息"
+  },
+  "spider": {
+    "message": "bing,google,baidu,sogou,so",
+    "description": "搜索引擎列表"
+  },
+
+  "extension_store": {
+    "message": "扩展商店",
+    "description": "Edge浏览器的扩展商店"
+  },
+  "extension_store_url": {
+    "message": "https://microsoftedge.microsoft.com/addons/Microsoft-Edge-Extensions-Home?hl=zh-CN",
+    "description": "Edge浏览器的扩展商店网址"
+  },
+  "extension": {
+    "message": "本机扩展",
+    "description": "Edge浏览器本机扩展管理页面"
+  },
+  "favorites": {
+    "message": "收藏夹",
+    "description": "Edge浏览器收藏夹"
+  },
+  "apps": {
+    "message": "浏览器应用",
+    "description": "Edge浏览器应用管理页面"
+  },
+  "settings": {
+    "message": "浏览器设置",
+    "description": "Edge浏览器设置页面"
+  },
+  "downloads": {
+    "message": "下载页面",
+    "description": "Edge浏览器下载页面"
+  },
+  "history": {
+    "message": "历史页面",
+    "description": "Edge浏览器历史页面"
+  },
+  "clear_browser_data": {
+    "message": "删除浏览数据",
+    "description": "删除Edge浏览器中历史数据、缓存等数据"
+  },
+  "version": {
+    "message": "浏览器版本",
+    "description": "Edge浏览器版本"
+  },
+  "search_prompt": {
+    "message": "输入搜索信息",
+    "description": "搜索文本框内的提示信息"
+  },
+
+  "bing": {
+    "message": "必应",
+    "description": "必应的网站名称"
+  },
+  "bing_url": {
+    "message": "https://www.bing.com/?mkt=zh-CN",
+    "description": "必应的网址"
+  },
+  "bing_search": {
+    "message": "使用必应搜索",
+    "description": "必应搜索按钮的提示语"
+  },
+  "bing_search_url": {
+    "message": "https://www.bing.com/search?q=",
+    "description": "必应搜索网址"
+  },
+
+  "google": {
+    "message": "谷歌",
+    "description": "谷歌的网站名称"
+  },
+  "google_url": {
+    "message": "https://www.google.com/",
+    "description": "谷歌的网址"
+  },
+  "google_search": {
+    "message": "使用谷歌搜索",
+    "description": "谷歌搜索按钮的提示语"
+  },
+  "google_search_url": {
+    "message": "https://www.google.com/search?q=",
+    "description": "谷歌搜索网址"
+  },
+
+  "baidu": {
+    "message": "百度",
+    "description": "百度的网站名称"
+  },
+  "baidu_url": {
+    "message": "https://www.baidu.com/",
+    "description": "百度的网址"
+  },
+  "baidu_search": {
+    "message": "使用百度搜索",
+    "description": "百度搜索按钮的提示语"
+  },
+  "baidu_search_url": {
+    "message": "https://www.baidu.com/s?wd=",
+    "description": "百度搜索网址"
+  },
+
+  "sogou": {
+    "message": "搜狗",
+    "description": "搜狗的网站名称"
+  },
+  "sogou_url": {
+    "message": "https://sogou.com/",
+    "description": "搜狗的网址"
+  },
+  "sogou_search": {
+    "message": "使用搜狗搜索",
+    "description": "搜狗搜索按钮的提示语"
+  },
+  "sogou_search_url": {
+    "message": "https://sogou.com/web?query=",
+    "description": "搜狗搜索网址"
+  },
+
+  "so": {
+    "message": "360",
+    "description": "360搜索的网站名称"
+  },
+  "so_url": {
+    "message": "https://www.so.com/",
+    "description": "360搜索的网址"
+  },
+  "so_search": {
+    "message": "使用360搜索",
+    "description": "360搜索按钮的提示语"
+  },
+  "so_search_url": {
+    "message": "https://www.so.com/s?q=",
+    "description": "360搜索网址"
+  }
+}

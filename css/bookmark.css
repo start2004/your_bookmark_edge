@@ -61,7 +61,7 @@
 }
 
 .search-text{
-    width: 380px;
+    width: 420px;
     /*vertical-align: middle;*/
     margin-top: 30px;
     display: fixed;
@@ -108,7 +108,7 @@
     height: 24px;
     padding-top: 2px;
     cursor: pointer;
-    width: 70px;
+    width: 80px;
 }
 
 .top{

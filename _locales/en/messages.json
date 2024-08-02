@@ -1,0 +1,131 @@
+{
+  "extension_name": {
+    "message": "Your Bookmarks",
+    "description": "Name of the extension"
+  },
+  "extension_description": {
+    "message": "Simple, secure, and smooth. A tidy bookmark manager with a tiled link layout for easy access to desired links. All data is stored locally with no online storage, ensuring safe use. A lightweight app that loads in just one second, offering a smooth and clutter-free experience without any lag.",
+    "description": "Description of the extension"
+  },
+  "action_default_title": {
+    "message": "Open Your Bookmarks",
+    "description": "Tooltip shown when hovering over the extension icon"
+  },
+  "spider": {
+    "message": "bing,google,yahoo,duckduckgo",
+    "description": "Search Engine List"
+  },
+
+  "extension_store": {
+    "message": "Add-ons",
+    "description": "Edge browser's extension store"
+  },
+  "extension_store_url": {
+    "message": "https://microsoftedge.microsoft.com/addons/Microsoft-Edge-Extensions-Home?hl=en",
+    "description": "URL for the Edge browser's extension store"
+  },
+  "extension": {
+    "message": "Extensions",
+    "description": "Edge browser's native extension management page"
+  },
+  "favorites": {
+    "message": "Favorites",
+    "description": "Edge browser's bookmarks"
+  },
+  "apps": {
+    "message": "Browser Apps",
+    "description": "Edge browser's app management page"
+  },
+  "settings": {
+    "message": "Settings",
+    "description": "Edge browser's settings page"
+  },
+  "downloads": {
+    "message": "Downloads",
+    "description": "Edge browser's downloads page"
+  },
+  "history": {
+    "message": "History",
+    "description": "Edge browser's history page"
+  },
+  "clear_browser_data": {
+    "message": "Delete Data",
+    "description": "Clears history data, cache, etc., in Edge browser"
+  },
+  "version": {
+    "message": "Version",
+    "description": "Edge browser's version"
+  },
+  "search_prompt": {
+    "message": "Enter Search Information",
+    "description": "Placeholder text in the search box"
+  },
+
+  "bing": {
+    "message": "Bing",
+    "description": "Name of Bing website"
+  },
+  "bing_url": {
+    "message": "https://www.bing.com/?mkt=en-US",
+    "description": "URL of Bing website"
+  },
+  "bing_search": {
+    "message": "Search With Bing",
+    "description": "Tooltip for Bing search button"
+  },
+  "bing_search_url": {
+    "message": "https://www.bing.com/search?q=",
+    "description": "Bing search URL"
+  },
+
+  "google": {
+    "message": "Google",
+    "description": "Name of Google website"
+  },
+  "google_url": {
+    "message": "https://www.google.com/",
+    "description": "URL of Google website"
+  },
+  "google_search": {
+    "message": "Search With Google",
+    "description": "Tooltip for Google search button"
+  },
+  "google_search_url": {
+    "message": "https://www.google.com/search?q=",
+    "description": "Google search URL"
+  },
+
+  "yahoo": {
+    "message": "Yahoo",
+    "description": "Name of Yahoo website"
+  },
+  "yahoo_url": {
+    "message": "https://www.yahoo.com/",
+    "description": "URL of Yahoo website"
+  },
+  "yahoo_search": {
+    "message": "Search With Yahoo",
+    "description": "Tooltip for Yahoo search button"
+  },
+  "yahoo_search_url": {
+    "message": "https://search.yahoo.com/search?p=",
+    "description": "Yahoo search URL"
+  },
+
+  "duckduckgo": {
+    "message": "DuckDuckGo",
+    "description": "Name of DuckDuckGo website"
+  },
+  "duckduckgo_url": {
+    "message": "https://duckduckgo.com/",
+    "description": "URL of DuckDuckGo website"
+  },
+  "duckduckgo_search": {
+    "message": "Search With DuckDuckGo",
+    "description": "Tooltip for DuckDuckGo search button"
+  },
+  "duckduckgo_search_url": {
+    "message": "https://duckduckgo.com/?q=",
+    "description": "DuckDuckGo search URL"
+  }
+}

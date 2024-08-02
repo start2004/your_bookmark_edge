@@ -10,6 +10,11 @@ $(function(){
  */
 function main(){
     /**
+     * @since 2024-08-02 title
+     */
+    $("title").text(chrome.i18n.getMessage("extension_name"));
+
+    /**
      * @since 2023-05-11 处理搜素框
      */
     spiderSearch();
@@ -46,6 +51,20 @@ function spiderSearch(){
      * @since 2023-05-15 初始化搜索图标
      */
     let spiderObj = getSpider();
+    $(".search-text").attr("placeholder", chrome.i18n.getMessage("search_prompt"));
+
+    /**
+     * @since 2024-08-01 加载-更多搜索图标html
+     */
+    let htmlArray = new Array();
+    let spiderArray = chrome.i18n.getMessage("spider").split(",");
+    for(let i=0; i<spiderArray.length; i++){
+        let spider = spiderArray[i];
+        let html = '<li id="'+ spider +'" style="background-image: url(\'image/'+ spider +'_128.png\');" title="'+ chrome.i18n.getMessage(spider+ "_search") +'">'+ chrome.i18n.getMessage(spider) +'</li>';
+        htmlArray.push(html);
+    }
+    let html = '<ul class="list-inline">' + htmlArray.join('') + '</ul>';
+    $(".search-tip.img-rounded").html(html);
 
     /**
      * @since 2023-05-15 修改图片
@@ -103,36 +122,12 @@ function getSpider(){
     let spider = localStorage.getItem(key);
 
     /**
-     * @since 2023-05-15 默认google
+     * @since 2023-05-15 默认bing
      */
-    let spiderObj = {"spider":"", "url":"", "urlSearch":""};
-    switch (spider){
-        case "google":
-            url = "https://www.google.com/";
-            urlSearch = "https://www.google.com/search?q=";
-            break;
-        case "baidu":
-            url = "https://www.baidu.com/";
-            urlSearch = "https://www.baidu.com/s?wd=";
-            break;
-        case "sogou":
-            url = "https://sogou.com/";
-            urlSearch = "https://sogou.com/web?query=";
-            break;
-        case "so":
-            url = "https://www.so.com/";
-            urlSearch = "https://www.so.com/s?q=";
-            break;
-        case "bing":
-        default:
-            spider = "bing";
-            url = "https://www.bing.com/";
-            urlSearch = "https://www.bing.com/search?q=";
-            break;
-    }
-    spiderObj.spider = spider;
-    spiderObj.url = url;
-    spiderObj.urlSearch = urlSearch;
+    if(chrome.i18n.getMessage(spider) == ""){
+        spider = "bing";
+    } else {}
+    let spiderObj = {"spider":spider, "url":chrome.i18n.getMessage(spider +"_url"), "urlSearch":chrome.i18n.getMessage(spider +"_search_url")};
 
     /**
      * @return
@@ -203,7 +198,7 @@ function openSpiderURL(spider, jump){
         /**
          * @since 2023-05-11 打开搜索
          */
-        let url = spiderObj.urlSearch+ encodeURIComponent(searchWord);
+        let url = spiderObj.urlSearch + encodeURIComponent(searchWord);
         window.open(url);
     }
 }
@@ -368,40 +363,39 @@ function addBookmark(groupName, bookmarkArray){
 function improveChromeBookmark(bookmarkArray){
     let chromeArray = new Array(
         {
-                title: '商店',
-                url: 'https://microsoftedge.microsoft.com/addons?hl=zh-CN'
+                title: chrome.i18n.getMessage("extension_store"),
+                url: chrome.i18n.getMessage("extension_store_url")
             },
             {
-                title: '插件',
+                title: chrome.i18n.getMessage("extension"),
                 url: 'edge://extensions/'
             },
             {
-                title: '书签',
-                url: 'edge://bookmarks/'
+                title: chrome.i18n.getMessage("favorites"),
+                url: 'edge://favorites/'
             },
             {
-                title: '应用',
+                title: chrome.i18n.getMessage("apps"),
                 url: 'edge://apps/'
             },
             {
-                title: '设置',
-                url: 'edge://settings/'
-            },
-
-            {
-                title: '下载内容',
-                url: 'edge://downloads/'
+                title: chrome.i18n.getMessage("settings"),
+                url: 'edge://settings/profiles'
             },
             {
-                title: '历史记录',
-                url: 'edge://history/'
+                title: chrome.i18n.getMessage("downloads"),
+                url: 'edge://downloads/all'
             },
             {
-                title: '清除浏览数据',
+                title: chrome.i18n.getMessage("history"),
+                url: 'edge://history/all'
+            },
+            {
+                title: chrome.i18n.getMessage("clear_browser_data"),
                 url: 'edge://settings/clearBrowserData'
             },
             {
-                title: '版本',
+                title: chrome.i18n.getMessage("version"),
                 url: 'edge://version'
             }
     );
