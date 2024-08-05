@@ -4,11 +4,11 @@
     "description": "扩展的名称"
   },
   "extension_description": {
-    "message": "简洁，安全，流畅。简洁的收藏夹，平铺书签链接，方便找到想要访问的链接。所有数据本地存储，无网络存储数据，请放心使用。轻量级应用，1秒加载完成，流畅简洁，拒绝卡顿。",
+    "message": "安全，简洁，流畅。\n1. 无任何网络请求，保护你的隐私。\n2. 简洁平铺书签，方便快速找到链接。\n3. 轻量级应用，1秒加载完成。",
     "description": "扩展的说明"
   },
   "action_default_title": {
-    "message": "打开你的书签",
+    "message": "打开你的收藏夹",
     "description": "鼠标移动到插件图标上，提示信息"
   },
   "spider": {
@@ -18,43 +18,43 @@
 
   "extension_store": {
     "message": "扩展商店",
-    "description": "Edge浏览器的扩展商店"
+    "description": "浏览器的扩展商店"
   },
   "extension_store_url": {
     "message": "https://microsoftedge.microsoft.com/addons/Microsoft-Edge-Extensions-Home?hl=zh-CN",
-    "description": "Edge浏览器的扩展商店网址"
+    "description": "浏览器的扩展商店网址"
   },
   "extension": {
     "message": "本机扩展",
-    "description": "Edge浏览器本机扩展管理页面"
+    "description": "浏览器本机扩展管理页面"
   },
   "favorites": {
     "message": "收藏夹",
-    "description": "Edge浏览器收藏夹"
+    "description": "浏览器收藏夹"
   },
   "apps": {
     "message": "浏览器应用",
-    "description": "Edge浏览器应用管理页面"
+    "description": "浏览器应用管理页面"
   },
   "settings": {
     "message": "浏览器设置",
-    "description": "Edge浏览器设置页面"
+    "description": "浏览器设置页面"
   },
   "downloads": {
     "message": "下载页面",
-    "description": "Edge浏览器下载页面"
+    "description": "浏览器下载页面"
   },
   "history": {
     "message": "历史页面",
-    "description": "Edge浏览器历史页面"
+    "description": "浏览器历史页面"
   },
   "clear_browser_data": {
     "message": "删除浏览数据",
-    "description": "删除Edge浏览器中历史数据、缓存等数据"
+    "description": "删除浏览器中历史数据、缓存等数据"
   },
   "version": {
     "message": "浏览器版本",
-    "description": "Edge浏览器版本"
+    "description": "浏览器版本"
   },
   "search_prompt": {
     "message": "输入搜索信息",

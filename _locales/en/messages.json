@@ -4,10 +4,10 @@
     "description": "Name of the extension"
   },
   "extension_description": {
-    "message": "Simple, secure, and smooth. A tidy bookmark manager with a tiled link layout for easy access to desired links. All data is stored locally with no online storage, ensuring safe use. A lightweight app that loads in just one second, offering a smooth and clutter-free experience without any lag.",
+    "message": "Secure, simple, and smooth.\n1. No network requests, protecting your privacy.\n2. Clean, tiled bookmarks for quick and easy access to links.\n3. Lightweight app, loads in one second.",
     "description": "Description of the extension"
   },
-  "action_default_title": {
+"action_default_title": {
     "message": "Open Your Bookmarks",
     "description": "Tooltip shown when hovering over the extension icon"
   },
