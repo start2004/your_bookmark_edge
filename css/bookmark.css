@@ -104,11 +104,11 @@
 .search-tip li{
     background-size: contain;
     background-repeat: no-repeat;
-    padding-left: 28px;
+    padding-left: 26px;
     height: 24px;
     padding-top: 2px;
     cursor: pointer;
-    width: 80px;
+    margin-right: 12px;
 }
 
 .top{

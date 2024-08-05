@@ -65,6 +65,7 @@ function spiderSearch(){
     }
     let html = '<ul class="list-inline">' + htmlArray.join('') + '</ul>';
     $(".search-tip.img-rounded").html(html);
+    // $(".search-tip").show();
 
     /**
      * @since 2023-05-15 修改图片
