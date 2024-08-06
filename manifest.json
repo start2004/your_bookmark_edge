@@ -8,9 +8,6 @@
     "bookmarks",
     "favicon"
   ],
-  "chrome_url_overrides": {
-    "newtab": "newtab.html"
-  },
   "icons": {
     "16": "image/icon_16.png",
     "32": "image/icon_32.png",

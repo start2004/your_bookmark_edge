@@ -8,3 +8,11 @@ chrome.action.onClicked.addListener((tab) => {
     let url = chrome.runtime.getURL("newtab.html");
     chrome.tabs.create({ url });
 });
+
+/**
+ * @since 2024-08-06 安装成功显示首页
+ */
+chrome.runtime.onInstalled.addListener(function() {
+    let url = chrome.runtime.getURL("newtab.html");
+    chrome.tabs.create({ url: url });
+});
