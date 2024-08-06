@@ -1,10 +1,10 @@
 {
   "extension_name":{
-    "message": "你的收藏夹",
+    "message": "你的书签",
     "description": "扩展的名称"
   },
   "extension_description": {
-    "message": "安全，简洁，流畅。\n1. 无任何网络请求，保护你的隐私。\n2. 简洁平铺书签，方便快速找到链接。\n3. 轻量级应用，1秒加载完成。",
+    "message": "展示你的收藏夹，平铺书签，方便快速找到",
     "description": "扩展的说明"
   },
   "action_default_title": {

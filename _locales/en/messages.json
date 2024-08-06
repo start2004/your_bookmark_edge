@@ -4,7 +4,7 @@
     "description": "Name of the extension"
   },
   "extension_description": {
-    "message": "Secure, simple, and smooth.\n1. No network requests, protecting your privacy.\n2. Clean, tiled bookmarks for quick and easy access to links.\n3. Lightweight app, loads in one second.",
+    "message": "Display your favorites, lay out the bookmarks for easy and quick access.",
     "description": "Description of the extension"
   },
 "action_default_title": {
