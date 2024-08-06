@@ -320,14 +320,10 @@ function formatData(node){
      * @since 2023-05-09 处理图标
      * @since 2023-05-10 获取网站的favicon
      */
-    if (url == "edge://settings/clearBrowserData"){
-        data.icon = "image/clear_128.png";
-    } else {
-        const chromeURL = new URL(chrome.runtime.getURL("/_favicon/"));
-        chromeURL.searchParams.set("pageUrl",url);
-        chromeURL.searchParams.set("size", "32");
-        data.icon = chromeURL.toString();
-    }
+    const chromeURL = new URL(chrome.runtime.getURL("/_favicon/"));
+    chromeURL.searchParams.set("pageUrl",url);
+    chromeURL.searchParams.set("size", "32");
+    data.icon = chromeURL.toString();
 
     return data;
 }
@@ -397,7 +393,7 @@ function improveChromeBookmark(bookmarkArray){
             },
             {
                 title: chrome.i18n.getMessage("version"),
-                url: 'edge://version'
+                url: 'edge://settings/help'
             }
     );
 

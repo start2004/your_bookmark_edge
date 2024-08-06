@@ -17,15 +17,15 @@
   },
 
   "extension_store": {
-    "message": "扩展商店",
-    "description": "浏览器的扩展商店"
+    "message": "应用商店",
+    "description": "浏览器的扩展应用商店"
   },
   "extension_store_url": {
     "message": "https://microsoftedge.microsoft.com/addons/Microsoft-Edge-Extensions-Home?hl=zh-CN",
     "description": "浏览器的扩展商店网址"
   },
   "extension": {
-    "message": "本机扩展",
+    "message": "扩展",
     "description": "浏览器本机扩展管理页面"
   },
   "favorites": {
@@ -33,19 +33,19 @@
     "description": "浏览器收藏夹"
   },
   "apps": {
-    "message": "浏览器应用",
+    "message": "应用",
     "description": "浏览器应用管理页面"
   },
   "settings": {
-    "message": "浏览器设置",
+    "message": "设置",
     "description": "浏览器设置页面"
   },
   "downloads": {
-    "message": "下载页面",
+    "message": "下载",
     "description": "浏览器下载页面"
   },
   "history": {
-    "message": "历史页面",
+    "message": "历史记录",
     "description": "浏览器历史页面"
   },
   "clear_browser_data": {
@@ -53,7 +53,7 @@
     "description": "删除浏览器中历史数据、缓存等数据"
   },
   "version": {
-    "message": "浏览器版本",
+    "message": "版本",
     "description": "浏览器版本"
   },
   "search_prompt": {
