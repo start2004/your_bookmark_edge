@@ -125,8 +125,8 @@ function getSpider(){
     /**
      * @since 2023-05-15 默认bing
      */
-    if(chrome.i18n.getMessage(spider) == ""){
-        spider = "bing";
+    if(typeof spider !== "string" || chrome.i18n.getMessage(spider) == ""){
+            spider = "bing";
     } else {}
     let spiderObj = {"spider":spider, "url":chrome.i18n.getMessage(spider +"_url"), "urlSearch":chrome.i18n.getMessage(spider +"_search_url")};
 
