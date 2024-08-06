@@ -10,9 +10,9 @@
 - Smooth. Lightweight application, loads in 1 second.
 - Secure. No network requests, privacy protected.
 
-![image](https://github.com/start2004/your_bookmark_edge/blob/main/review-image/1280x800-1.png?raw=true)
+![image](https://github.com/start2004/your_bookmark_edge/blob/main/review-image/zh_CN/1280x800-1.png?raw=true)
 
-![image](https://github.com/start2004/your_bookmark_edge/blob/main/review-image/1280x800-2.png?raw=true)
+![image](https://github.com/start2004/your_bookmark_edge/blob/main/review-image/en/1280x800-1.png?raw=true)
 
 ### 单一用途说明
 
