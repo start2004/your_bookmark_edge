@@ -19,6 +19,9 @@
 - 展示用户的收藏夹，平铺书签链接，方便用户快速找到自己想要访问的链接
 - 提供多种搜索引擎，便于用户选择
 
+Display users' favorites and tile bookmark links, allowing users to quickly find the links they want to visit
+- Provide a variety of search engines for easy user selection
+
 ### 权限
 
 更改新标签页，Edge浏览器会以安全原因，关闭浏览器，放弃
